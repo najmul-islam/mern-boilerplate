@@ -1,7 +1,5 @@
-import React from "react";
+import * as React from "react";
 
-const Home = () => {
-  return <div>Home</div>;
-};
-
-export default Home;
+export default function BasicButtons() {
+  return <h1>Home</h1>;
+}
